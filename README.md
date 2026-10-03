@@ -298,3 +298,48 @@ This script prints a practical summary of:
 - context window examples
 - temperature guidance
 - comparisons with traditional ML
+
+
+## Architecture
+
+The project is intentionally dependency-free so the concepts can be explored without an API key or model provider.
+
+```mermaid
+flowchart LR
+    A[Software Engineer] --> B[Prompt / Context]
+    B --> C[LLM Concepts]
+    C --> D[Tokens]
+    C --> E[Context Window]
+    C --> F[Training vs Inference]
+    C --> G[Parameters]
+    C --> H[Temperature]
+    C --> I[Prompt Roles]
+    C --> J[Hallucinations]
+    C --> K[Traditional ML]
+    D --> L[Production Engineering]
+    E --> L
+    H --> L
+    J --> L
+```
+
+## Sample output
+
+The repository includes a visual representation of the script's sample console output:
+
+![LLM guide sample output](docs/llm-guide-output.svg)
+
+## Automated testing
+
+GitHub Actions runs the Python test suite on pushes to `main` and on pull requests.
+
+![Python Tests](https://github.com/vicky123444/llm-practical-guide/actions/workflows/python-tests.yml/badge.svg)
+
+## Blog
+
+The companion article is being developed for the **Vikram Tech Lab** technical blog. A public blog URL will be added here when the site is published.
+
+## Author
+
+**Vikram Singh** — Senior Java / Cloud / AI Engineer
+
+This project is part of a practical learning series covering LLMs, AWS, Kubernetes, GenAI, AI agents, and production engineering.
