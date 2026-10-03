@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="1100" height="620" fill="#111827"/>
+<text x="55" y="65" fill="#e5e7eb" font-family="monospace" font-size="28" font-weight="bold">llm_guide.py — sample output</text>
+<text x="55" y="115" fill="#93c5fd" font-family="monospace" font-size="20">What Is an LLM? A Practical Guide for Software Engineers</text>
+<g fill="#d1d5db" font-family="monospace" font-size="17">
+<text x="55" y="160">================================================================================</text>
+<text x="55" y="195">An LLM is a neural model trained to predict the next token in a sequence.</text>
+<text x="55" y="225">It learns patterns in language and generates text, code, and structured output.</text>
+<text x="55" y="255">It is best seen as a probability model over language, not guaranteed truth.</text>
+<text x="55" y="310">Tokens</text>
+<text x="55" y="345">- Short prompt: 37 chars -&gt; ~9 tokens</text>
+<text x="55" y="375">- Code sample: 49 chars -&gt; ~12 tokens</text>
+<text x="55" y="405">Context Window</text>
+<text x="55" y="440">- Small model: 4,096 tokens</text>
+<text x="55" y="470">- Mid-size model: 32,768 tokens</text>
+<text x="55" y="500">- Long-context model: 128,000 tokens</text>
+<text x="55" y="550">Engineering takeaway: ground, validate, and control context and output quality.</text>
+</g>
+</svg>
