@@ -1,0 +1,7 @@
+Validation performed before publishing:
+
+Command:
+python -m pytest test_llm_guide.py -q
+
+Result:
+4 passed
